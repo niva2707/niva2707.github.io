@@ -1,0 +1,148 @@
+body
+{
+margin: 0;
+padding: 0;
+background:url(../img/picture.jpg);
+background-repeat:no-repeat;
+background-size: 100%;
+}
+.p1{
+padding-top:5px;
+}
+.header-line{
+background:url(../img/menuline.jpg);
+height:32px;
+}
+.panel1{
+float:left;
+margin-left:330px;
+}
+.knopki1{
+width:100px;
+height:32px;
+text-align:center;
+color:#66ccff;
+display:inline-block;
+vertical-align: middle;
+}
+.knopki1:hover {
+background:#66ccff;
+width:98px;
+height:32px;
+color:white;
+border-left:1px solid #838383;
+border-right:1px solid #838383;
+vertical-align: middle;
+}
+.panel2{
+float:right;
+}
+.knopki2{
+width:200px;
+height:28px;
+padding-top:4px;
+text-align:center;
+color:white;
+display:inline-block;
+vertical-align: middle;
+}
+.knopki2:hover {
+background:#66ccff;
+width:198px;
+height:28px;
+padding-top:4px;
+color:white;
+border-left:1px solid #838383;
+border-right:1px solid #838383;
+vertical-align: middle;
+}
+.panel3{
+float:right;
+}
+.w11{
+height:32px;
+display:inline-block;
+}
+.w22{
+display:inline-block;
+}
+.container1{
+background-color: rgba(0, 0, 0, 0.3);
+margin-top:120px;
+margin-left:420px;
+margin-right:420px;
+border-bottom:1px solid white;
+}
+.Cadastre-se{
+margin-top:5px;
+margin-bottom:5px;
+color:white;
+font-size:18px;
+text-align:center;
+}
+.container2{
+background-color: rgba(0, 0, 0, 0.3);
+margin-left:420px;
+margin-right:420px;
+}
+.fb{
+margin-top:5px;
+text-align:center;
+line-height:34px;
+}
+.labelinput{
+margin-top:5px;
+text-align:center;
+}
+.fealddiz{
+background-color:black;
+padding-left:15px;
+color:white;
+width:255px;
+height:30px;
+margin-bottom:15px;
+}
+.fealddiz:focus{
+background-color:#1b4d7f;
+box-shadow: 0 0 20px -10px rgba(75,135,174,0.8);
+padding-left:15px;
+color:white;
+width:255px;
+height:30px;
+margin-bottom:15px;
+}
+.input:hover{
+background-color:#1b4d7f;
+}
+.butcheckbox{
+padding-left:15px;
+color:white;
+}
+.gg22{
+margin-top:15px;
+margin-left:170px;
+}
+.gg2{
+background:url(../img/button.png);
+width:151px;
+height:37px;
+text-align:center;
+border-radius:5px;
+}
+.gg2:active{
+background:url(../img/button_ctive.png);
+}
+.chk{
+margin-top:10px;
+color:white;
+padding-left:117px;
+}
+.footter{
+margin-left:70px;
+width:380px;
+height:50px;
+text-align:center;
+color:white;
+font-size:11px;
+margin-bottom:5px;
+}
