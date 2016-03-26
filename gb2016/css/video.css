@@ -1,0 +1,30 @@
+h1{
+	text-align:center;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    font:30pt sans-serif;
+	color:white; 
+}
+h1:hover{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 5em black;
+    font:30pt sans-serif;
+}
+iframe{
+	margin-left:60px;
+}
+body{
+background-image:url("http://fotolive.com.ua/uploads/posts/2011-11/1320762487_bf-3-2.jpg"); 
+background-color:black; 
+background-attachment:fixed; 
+background-size:100%; 
+background-repeat:no-repeat;
+}
+.footer{
+	margin-top:20px;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-left:-8px;
+	margin-right:-8px;
+	color:white;
+}
