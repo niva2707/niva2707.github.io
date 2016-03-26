@@ -11,13 +11,14 @@ padding:0;
 color:#bbabb8;
 }
 .header{
-width:100%;
-height:769px;
+width:2400px;
+height:440px;
 background:url(../img960/fon.png);
-padding-top:80px;
+padding-top:78px;
 }
 .title{
-margin-left:717px; 
+margin-top:2px;
+margin-left:1120px; 
 }
 .title1{
 font-family: League Gothic;
@@ -37,75 +38,71 @@ height:90px;
 position: relative;
 }
 #panel {
-visibility: hidden;
 margin:0;
 padding:0;
 }
 .knopki {
-visibility: hidden;
 list-style: none;
 margin:0;
 padding:0;
-}
 
+}
 .subpanel {
-visibility: hidden;
 list-style: none;
 margin-top:50px;
-margin-left:-15px;
-width: 168px;
-height:258px;
+margin-left:-45px;
+width: 220px;
+height:276px;
 display: none;
 position: absolute;
 background: rgba(0, 0, 0, 0.5);
 border-radius:15px;
 }
 .mline1 {
-visibility: hidden;
 display: block;
-padding-top:10px;
+padding-top:20px;
 font-family: League Gothic;
-font-size:20px;
-width: 208px;
+font-size:24px;
+width: 260px;
 margin-left:-40px;
 height: 33px;
 color: white;
+position: relative;
 font-family: League Gothic;
 vertical-align: middle;
 text-align: center;
 }
 .mline1:hover{
-visibility: hidden;
 background:black;
+color: white;
 text-decoration:underline;
 border-radius:15px 15px 0 0;
 }
 .mline2{
-visibility: hidden;
 display: block;
+position: relative;
 margin-left:-40px;
 padding-top:10px;
-width: 208px;
+width: 260px;
 height: 33px;
 color: white;
-font-size:20px;
+font-size:24px;
 vertical-align: middle;
 text-align: center;
-border-bottom:1px solid white;
+border-bottom:3px solid #edbfff;
 }
 .mline2:hover{
-visibility: hidden;
 background:black;
 text-decoration:underline;
 }
 .mline {
-visibility: hidden;
 display: block;
 margin-left:-40px;
+position: relative;
 padding-top:10px;
 font-family: League Gothic;
-font-size:20px;
-width: 208px;
+font-size:24px;
+width: 260px;
 height: 33px;
 color: white;
 font-family: League Gothic;
@@ -113,18 +110,17 @@ vertical-align: middle;
 text-align: center;
 }
 .mline:hover{
-visibility: hidden;
 background:black;
 text-decoration:underline;
 }
 .mline6 {
-visibility: hidden;
 display: block;
 margin-left:-40px;
 padding-top:10px;
+position: relative;
 font-family: League Gothic;
-font-size:20px;
-width: 208px;
+font-size:24px;
+width: 260px;
 height: 33px;
 color: white;
 font-family: League Gothic;
@@ -132,22 +128,18 @@ vertical-align: middle;
 text-align: center;
 }
 .mline6:hover{
-visibility: hidden;
 background:black;
 text-decoration:underline;
 border-radius:0 0 15px 15px;
 }
 .knopki:hover .subpanel, .knopki.jshover .subpanel {
-visibility: hidden;
 display: block;
 }
 .knopki:hover, .knopki.jshover {
-visibility: hidden;
 background: black;
-/*text-shadow: 1px 1px 2px black, 0 0 1em black;*/
+border:0;
 border-radius:15px;
 }
-
 .title12{
 font-family: League Gothic;
 margin-top:1px;
@@ -156,144 +148,91 @@ text-shadow: 4px 0 4px #bea7b1;
 position:relative;
 font-size:48px;
 height:48px; 
-float:left;
 margin-right:167px;
 }
 .menuup{
-float:left;
-font-family: League Gothic;
-color:white;
-font-size:24px;
-height:32px;
-vertical-align: middle;
-text-shadow: 3px 3px 3px #9b9193;
+visibility: hidden;
 }
 .p1{
-float:left;
-width:50px;
-height:24px;
-text-align:center;
-}
-.p1:hover{
-border-bottom:3px solid #bbabb8;
+visibility: hidden;
 }
 .p2{
-margin-left:35px;
-float:left;
-width:60px;
-height:24px;
-text-align:center;
-}
-.p2:hover{
-border-bottom:3px solid #bbabb8;
+visibility: hidden;
 }
 .p3{
-margin-left:33px;
-float:left;
-width:50px;
-height:24px;
-text-align:center;
-}
-.p3:hover{
-border-bottom:3px solid #bbabb8;
+visibility: hidden;
 }
 .p4{
-margin-left:35px;
-float:left;
-width:90px;
-height:24px;
-text-align:center;
-}
-.p4:hover{
-border-bottom:3px solid #bbabb8;
+visibility: hidden;
 }
 .p5{
-margin-left:32px;
-float:left;
-width:100px;
-height:24px;
-text-align:center;
-}
-.p5:hover{
-border-bottom:3px solid #bbabb8;
+visibility: hidden;
 }
 .p6{
-margin-left:41px;
-float:left;
-width:115px;
-height:24px;
-text-align:center;
-}
-.p6:hover{
-border-bottom:3px solid #bbabb8;
+visibility: hidden;
 }
 .line1{
-background: rgba(0, 0, 0, 0.2);
-margin-top:183px;
+background: 0;
+margin-top:-42px;
 width:2400px;
-height:400px;
+height:245px;
 }
 .v1{
 height:42px;
-margin-left:400px;
-margin-top:4px;
+margin-left:-210px;
+margin-top:104px;
+padding-bottom:-100px;
 width:30px;
 float:left;
 background:url(../img960/аrrow_left.png);
-margin-top:180px;
+
 }
 .l1t{
 float:left;
-margin-left:290px;
-margin-top:98px;
+width:200px;
+margin-top:105px;
+margin-left:-140px;
 font-family: League Gothic;
-text-shadow: 2px 2px 2px #9b9193;
+/*text-shadow: 2px 2px 2px #9b9193;*/
 }
 .l1t1{
 color:white;
-font-size:60px;
+font-size:36px;
 font-weight: 100;
-word-spacing: 2ех;
+word-spacing: 1.5ех;
 letter-spacing: 2ех;
 }
 .l1t2{
-margin-top:28px;
-color:#edbfff;
-font-size:32px;
-}
-.l1t22{
 visibility: hidden;
 }
+.l1t22{
+margin-top:-4px;
+color:#edbfff;
+font-size:16px;
+font-weight: 100;
+word-spacing: 0.5ех;
+letter-spacing:0.2ех;
+}
 .l1t3{
-font-family: Open Sans Light ;
-margin-top:0px;
-line-height:25px;
-color:white;
-font-size:18px;
-width:520px;
-font-weight: lighter;
-word-spacing: 0.1ех;
-letter-spacing: 0.1ех;
+visibility: hidden;
 }
 .l1t33{
 visibility: hidden;
 }
 .iphone{
-float:left;
-margin-left:50px;
-margin-top:-18px;
+visibility: hidden;
 }
 .iphoneS{
 visibility: hidden;
 }
 .v2{
 float:left;
-margin-left:365px;
-margin-top:-127px;
+margin-left:1330px;
+margin-top:-632px;
 }
 .radio1{
-margin-left:1436px;
-margin-top:80px;
+margin-left:1167px;
+margin-top:-83px;
 float:left;
 }
 .b1{
@@ -309,290 +248,290 @@ background:url(../img960/white_dot.png);
 }
 .contaner1{
 width:2400px;
-height:342px;
-margin-top:-19px;
+height:601px;
+margin-top:-20px;
 background: linear-gradient(to bottom, #745083, #34263b);
 }
 .c1sb1{
-margin-left:725px;
-margin-top:81px;
+float:left;
+margin-left:1069px;
+margin-top:76px;
 width:20px;
 height:20px;
-float:left;
 }
 .remont{
-margin-left:2px;
+margin-top:-2px;
 }
 .c1sb2{
-margin-left:35px;
-margin-top:83px;
 float:left;
-width:300px;
-height:280px;
+margin-left:1121px;
+margin-top:-20px;
+width:220px;
+height:120px;
 }
 .transpor1{
-margin-left:2px;
 display:block;
 font-family: League Gothic;
 color:white;
-font-size:30px;
-}
-.transpor44{
-visibility: hidden;
+font-size:24px;
 }
 .transpor444{
-visibility: hidden;
-}
-.transpor4{
 display:block;
-margin-top:13px;
+margin-left:0px;
+margin-top:-174px;
 font-family: Open Sans Light;
 font-weight: lighter;
 line-height:25px;
 color:white;
 font-size:16px;
-height:200px;
-width:280px;
-word-spacing: 0.1ех;
-letter-spacing: 0.1ех;
+height:120px;
+width:220px;
+word-spacing: 0.05ех;
+letter-spacing: 0.05ех;
+}
+.transpor44{
+visibility: hidden;
+}
+.transpor4{
+visibility: hidden;
 }
 .but1{
-display:block;
-margin-top:-138px;
-margin-left:161px;
+margin-top:-31px;
+margin-left:157px;
 font-family: League Gothic;
+font-weight: 100;
 color:white;
 font-size:18px;
 background:0;
 border:0;
 }
 .but1:hover{
+font-weight:bold;
 text-shadow: 0 0 4px white;
 }
 .c1sb3{
-margin-left:-38px;
-margin-top:81px;
+float:left;
+margin-left:1069px;
+margin-top:38px;
 width:20px;
 height:20px;
-float:left;
 }
 .remont1{
-visibility: hidden;
+margin-top:-2px;
 }
 .oblko{
-margin-top:-25px;
-margin-left:26px;
+visibility: hidden;
 }
 .c1sb4{
-margin-left:38px;
-margin-top:83px;
 float:left;
-width:300px;
-height:280px;
+margin-left:1121px;
+margin-top:-21px;
+width:220px;
+height:120px;
 }
 .transpor2{
-margin-left:2px;
 display:block;
 font-family: League Gothic;
 color:white;
-font-size:30px;
-}
-.transpor55{
-visibility: hidden;
+font-size:24px;
 }
 .transpor555{
-visibility: hidden;
-}
-.transpor5{
 display:block;
-margin-top:13px;
+margin-left:0px;
+margin-top:-174px;
 font-family: Open Sans Light;
 font-weight: lighter;
 line-height:25px;
 color:white;
 font-size:16px;
-height:200px;
-width:280px;
-word-spacing: 0.1ех;
-letter-spacing: 0.1ех;
+height:120px;
+width:220px;
+word-spacing: 0.05ех;
+letter-spacing: 0.05ех;
+}
+.transpor55{
+visibility: hidden;
+}
+.transpor5{
+visibility: hidden;
 }
 .but2{
-display:block;
-margin-top:-138px;
-margin-left:166px;
+margin-top:-31px;
+margin-left:157px;
 font-family: League Gothic;
+font-weight: 100;
 color:white;
 font-size:18px;
 background:0;
 border:0;
 }
 .but2:hover{
+font-weight:bold;
 text-shadow: 0 0 4px white;
 }
 .c1sb5{
-margin-left:25px;
-margin-top:51px;
+float:left;
+margin-left:1064px;
+margin-top:22px;
 width:20px;
 height:20px;
-float:left;
 }
 .musik{
-margin-top:32px;
-margin-left:-39px;
-}
-.remont2{
 visibility: hidden;
 }
+.remont2{
+margin-left:5px;
+}
 .c1sb6{
-margin-left:-5px;
-margin-top:83px;
 float:left;
-width:300px;
-height:280px;
+margin-left:1121px;
+margin-top:11px;
+width:220px;
+height:120px;
 }
 .transpor3{
-margin-left:2px;
 display:block;
 font-family: League Gothic;
 color:white;
-font-size:30px;
+font-size:24px;
 }
 .transpor66{
 visibility: hidden;
 }
-.transpor666{
+.transpor6{
 visibility: hidden;
 }
-.transpor6{
+.transpor666{
 display:block;
-margin-top:13px;
+margin-left:0px;
+margin-top:-174px;
 font-family: Open Sans Light;
 font-weight: lighter;
 line-height:25px;
 color:white;
 font-size:16px;
-height:200px;
-width:280px;
-word-spacing: 0.1ех;
-letter-spacing: 0.1ех;
+height:120px;
+width:220px;
+word-spacing: 0.05ех;
+letter-spacing: 0.05ех;
 }
 .but3{
-display:block;
-margin-top:-138px;
-margin-left:161px;
+margin-top:-31px;
+margin-left:156px;
 font-family: League Gothic;
+font-weight: 100;
 color:white;
 font-size:18px;
 background:0;
 border:0;
 }
 .but3:hover{
+font-weight:bold;
 text-shadow: 0 0 4px white;
 }
 
-
 .contaner2{
-float:left;
-margin-top:-20px;
+margin-top:-16px;
 width:2400px;
-height:487px;
+height:785px;
 background-color:#f9f9f9;
 border-bottom:1px solid #bbabb8;
 }
 .sideleft{
 float:left;
-margin-top:100px;
-margin-left:747px;
-width:410px;
-height:290px;
-background:url(../img960/fonsidebr.png);
+margin-top:70px;
+margin-left:1082px;
+width:250px;
+height:270px;
+background:white;
 }
 .sbl1{
-padding-top:24px;
-margin-left:-28px;
-float:left;
+padding-top:20px;
+margin-left:-25px;
  }
 .sbl11{
 display:inline-block;
  }
 .sbl12{
 display:inline-block;
-margin-top:13px;
-margin-left:7px;
+margin-top:9px;
+margin-left:8px;
 font-family: League Gothic;
 color:#454545;
-font-size:30px;
+font-size:24px;
 vertical-align: top;
  }
 .sbl13{
-display:inline-block;
-margin-top:13px;
-margin-left:2px;
+display:block;
+margin-top:-16px;
+margin-left:60px;
 font-family: League Gothic;
 color:#edbfff;
-font-size:30px;
+font-size:24px;
 vertical-align: top;
  }
-.sbl21{
-margin-top:-5px;
-margin-left:33px;
-display:inline-block;
-width:350px;
-height:150px;
-font-weight:light;
+.sbl2111{
+margin-top:-273px;
+margin-left:39px;
+display:block;
+width:190px;
 font-family: Open Sans Light ;
+font-weight:light;
 color:black;
-font-size:18px;
+font-size:16px;
 line-height:25px;
-letter-spacing: 2pх;
-word-spacing:2px;
+letter-spacing:0.1pх;
+word-spacing:0.1px;
  }
  .sbl211{
 visibility: hidden;
  }
-  .sbl2111{
+ .sbl21{
 visibility: hidden;
  }
 .sbl2{
-margin-top:-350px;
-margin-left:408px;
-float:left;
-width:15px;
-height:271px;
-background-color:white;
+visibility: hidden;
  }
 .sideright{
-float:left;
-margin-top:125px;
-margin-left:66px;
+padding-top:426px;
+margin-left:1020px;
 width:480px;
-height:220px;
+height:200px;
 }
 .sbr1{
 float:left;
-margin-top:9px;
-margin-left:7px;
+margin-top:13px;
+margin-left:40px;
 font-family: League Gothic;
 color:#454545;
 font-size:30px;
 vertical-align: top;
 }
 .sbr11{ 
-margin-top:34px;
-margin-left:7px;
+margin-top:36px;
+margin-left:40px;
 }
 .sbr21{
-margin-top:-44px;
+visibility: hidden;
+}
+.sbr211{
+margin-top:-65px;
 margin-left:65px;
 font-family: Open Sans Light ;
-font-weight:bold;
+font-weight:900;
 font-size:16px;
 color:#454545;
-letter-spacing: 2pх;
-word-spacing:2px;
+letter-spacing: 3pх;
+word-spacing:3px;
 }
 .sbr22{
-margin-top:-28px;
+visibility: hidden;
+}
+.sbr222{
+visibility: hidden;
+}
+.sbr2222{
+margin-top:-41px;
 margin-left:65px;
 font-family: Open Sans Light ;
 font-weight:light;
@@ -601,25 +540,25 @@ color:#454545;
 letter-spacing: 0.2pх;
 word-spacing:0.2px;
 }
-.sbr222{
-visibility: hidden;
-}
 .sbr12{ 
-margin-top:-24px;
-margin-left:6px;
+margin-top:8px;
+margin-left:40px;
 }
 .sbr23{
-margin-top:-46px;
-margin-left:67px;
+visibility: hidden;
+}
+.sbr231{
+margin-top:-65px;
+margin-left:65px;
 font-family: Open Sans Light ;
 font-weight:bold;
 font-size:16px;
 color:#454545;
-letter-spacing: 2pх;
-word-spacing:2px;
+letter-spacing: 3pх;
+word-spacing:3px;
 }
-.sbr24{
-margin-top:-28px;
+.sbr2422{
+margin-top:-41px;
 margin-left:65px;
 font-family: Open Sans Light ;
 font-weight:light;
@@ -631,23 +570,35 @@ word-spacing:0.2px;
 .sbr242{
 visibility: hidden;
 }
-.sbr13{ 
-margin-top:-26px;
-margin-left:4px;
+.sbr24{
+visibility: hidden;
 }
-.sbr25{
-margin-top:-45px;
-margin-left:68px;
+.sbr13{ 
+margin-top:9px;
+margin-left:40px;
+}
+.sbr251{
+margin-top:-59px;
+margin-left:66px;
 font-family: Open Sans Light ;
 font-weight:bold;
 font-size:16px;
 color:#454545;
-letter-spacing: 2pх;
-word-spacing:2px;
+letter-spacing: 3pх;
+word-spacing:3px;
+}
+.sbr25{
+visibility: hidden;
 }
 .sbr26{
-margin-top:-28px;
-margin-left:68px;
+visibility: hidden;
+}
+.sbr262{
+visibility: hidden;
+}
+.sbr2622{
+margin-top:-40px;
+margin-left:66px;
 font-family: Open Sans Light ;
 font-weight:light;
 font-size:16px;
@@ -655,32 +606,13 @@ color:#454545;
 letter-spacing: 0.2pх;
 word-spacing:0.2px;
 }
-.sbr262{
-visibility: hidden;
-}
-.sbr211{
-visibility: hidden;
-}
-.sbr2222{
-visibility: hidden;
-}
-.sbr231{
-visibility: hidden;
-}
-.sbr2422{
-visibility: hidden;
-}
-.sbr251{
-visibility: hidden;
-}
-.sbr2622{
-visibility: hidden;
-}
 .footer1{
-margin-left:918px;
-margin-top:380px;
+margin-left:0px;
+margin-top:0px;
 }
 .radio2{
+margin-left:1184px;
+margin-top:-276px;
 float:left;
 }
 .b2{
@@ -695,19 +627,19 @@ background:url(../img960/white_dot1.png);
 background: url(../img960/blk_dot1.png);
 }
 .sbr27{
+visibility: hidden;
+}
+.sbr272{
 float:left;
 display:block;
-margin-left:575px;
-margin-top:-17px;
+margin-left:1244px;
+margin-top:22px;
 font-family: League Gothic ;
-font-weight:bold;
-font-size:18px;
+font-weight:light;
+font-size:20px;
 color:#454545;
 letter-spacing: 2pх;
 word-spacing:2px;
-}
-.sbr272{
-visibility: hidden;
 }
 .spce2{
 width:10px;
@@ -716,217 +648,206 @@ background-color:red;
 }
 .strlogo{
 float:left;
-margin-top:1px;
+margin-top:-16px;
 width:2400px;
-height:121px;
+height:413px;
 background-color:#f9f9f9;
 }
 .logo{
-margin-left:813px;
-margin-top:23px;
+margin-left:897px;
+margin-top:50px;
 }
 .l1{
 float:left;
+margin-left:203px;
 display:inline-block;
 width:69px;
-height:66px;
+height:64px;
 background:url(../img960/l1.png);
 }
 .l2{
-float:left;
 display:inline-block;
-margin-left:64px;
+margin-left:56px;
 width:72px;
-height:66px;
+height:64px;
 background:url(../img960/l2.png);
 }
 .l3{
-float:left;
-display:inline-block;
-margin-left:64px;
-margin-top:2px;
-width:64px;
-height:62px;
+display:block;
+margin-left:211px;
+margin-top:59px;
+width:65px;
+height:65px;
 background:url(../img960/l3.png);
 }
 .l4{
-float:left;
 display:inline-block;
-margin-left:78px;
-margin-top:3px;
-width:49px;
-height:66px;
+margin-left:345px;
+margin-top:-100px;
+padding-bottom:15px;
+width:50px;
+height:50px;
 background:url(../img960/l4.png);
 }
 .l5{
-float:left;
-display:inline-block;
-margin-left:66px;
-margin-top:24px;
-width:102px;
-height:20px;
+display:block;
+margin-left:190px;
+margin-top:47px;
+width:103px;
+height:21px;
 background:url(../img960/l5.png);
 }
 .l6{
-float:left;
 display:inline-block;
-margin-left:70px;
-margin-top:3px;
-width:86px;
-height:66px;
+margin-left:345px;
+margin-top:-100px;
+width:78px;
+height:61px;
 background:url(../img960/l6.png);
 }
 .contaner4{
+visibility: hidden;
+margin-top:-10px;
 float:left;
 width:2400px;
-height:396px;
+height:670px;
 background-color:#ececec;
 }
 .downmenu1{
-margin-left:719px;
-float:left;
-margin-top:95px;
-width:340px;
-height:205px;
-}
-.downmenu2{
-float:left;
-margin-top:95px;
-width:340px;
-height:205px;
-}
-.downmenu3{
-float:left;
-margin-top:95px;
-width:340px;
-height:205px;
-}
-.downtit1{
-float:left;
-margin-top:11px;
-margin-left:-2px;
-font-family: League Gothic;
-font-weight:light;
-font-size:48px;
-color:#454545;
-font-stretch:normal;
-}
-.downtit2{
-float:left;
-margin-top:11px;
-margin-left:0px;
-font-family: League Gothic;
-font-weight:light;
-font-size:48px;
-color:write;
-font-stretch:normal;
-}
-.downtit3{
-display:block;
-margin-top:26px;
-margin-left:-2px;
-font-family: Georgia Italic;
-font-style: italic;
-font-weight:light;
-font-size:16px;
-color:#c5c5c5;
-font-stretch:normal;
-}
-.downtit4{
-display:block;
-margin-top:14px;
-margin-left:-2px;
-font-family: Open Sans Light;
-font-weight:light;
-font-size:16px;
-color:#c5c5c5;
-font-stretch:normal;
-width:300px;
-height:150px;
-line-height:24px;
-}
-.downtit21{
-float:left;
-margin-top:2px;
-margin-left:-2px;
-font-family: League Gothic;
-font-weight:light;
-font-size:30px;
-color:#454545;
-font-stretch:normal;
-}
-.downtit22{
-display:block;
-margin-top:8px;
-margin-left:-2px;
-font-family: Open Sans Light;
-font-weight:light;
-font-size:16px;
-color:#c5c5c5;
-font-stretch:normal;
-width:300px;
-height:250px;
-line-height:24px;
+visibility: hidden;
+margin-left:970px;
+margin-top:50px;
+width:500px;
+height:120px;
 }
 .downtit41{
 visibility: hidden;
+margin-left:8px;
+display:block;
+font-family: League Gothic;
+font-weight:light;
+font-size:24px;
+color:#454545;
+font-stretch:normal;
 }
 .downtit421{
 visibility: hidden;
 }
-.downtit42{
+.downtit4211{
 visibility: hidden;
-}
-.downtit422{
-visibility: hidden;
-}
-.downtit423{
-visibility: hidden;
-}
-.downtit43{
-float:left;
-margin-top:2px;
-margin-left:-2px;
-font-family: League Gothic;
-font-weight:light;
-font-size:30px;
-color:#454545;
-font-stretch:normal;
-}
-.downtit432{
 display:block;
-margin-top:20px;
-margin-left:-2px;
+margin-top:-117px;
+margin-left:8px;
 font-family: Open Sans Light;
 font-weight:light;
 font-size:16px;
 color:#c5c5c5;
 font-stretch:normal;
-width:300px;
-height:250px;
-line-height:24px;
+width:500px;
+height:120px;
+line-height:23px;
 }
-.downtit4211{
+.downmenu2{
+visibility: hidden;
+margin-left:977px;
+margin-top:81px;
+width:500px;
+height:120px;
+}
+.downtit42{
+visibility: hidden;
+display:block;
+font-family: League Gothic;
+font-weight:light;
+font-size:24px;
+color:#454545;
+font-stretch:normal;
+}
+.downtit422{
 visibility: hidden;
 }
 .downtit4221{
 visibility: hidden;
+display:block;
+margin-top:-117px;
+font-family: Open Sans Light;
+font-weight:light;
+font-size:16px;
+color:#c5c5c5;
+font-stretch:normal;
+width:500px;
+height:120px;
+line-height:23px;
+}
+.downmenu3{
+visibility: hidden;
+margin-left:978px;
+margin-top:86px;
+width:500px;
+height:120px;
+}
+.downtit43{
+visibility: hidden;
+display:block;
+font-family: League Gothic;
+font-weight:light;
+font-size:24px;
+color:#454545;
+font-stretch:normal;
+}
+.downtit423{
+visibility: hidden;
 }
 .downtit4231{
+visibility: hidden;
+display:block;
+margin-top:-119px;
+font-family: Open Sans Light;
+font-weight:light;
+font-size:16px;
+color:#c5c5c5;
+font-stretch:normal;
+width:500px;
+height:120px;
+line-height:23px;
+}
+.downtit1{
+visibility: hidden;
+}
+.downtit2{
+visibility: hidden;
+}
+.downtit3{
+visibility: hidden;
+}
+.downtit4{
+visibility: hidden;
+}
+
+
+.downtit21{
+visibility: hidden;
+}
+.downtit22{
+visibility: hidden;
+}
+.downtit432{
 visibility: hidden;
 }
 .contaner5{
 float:left;
 width:2400px;
-height:112px;
-background:url(../img960/footer.png);
+height:200px;
+background:url(../img960/bottom2.png);
+margin-top:-650px;
 }
 .menudown{
+visibility: hidden;
 float:left;
 font-family: League Gothic;
 color:white;
 font-weight:lighter;
-margin-left:714px;
+margin-left:978px;
 margin-top:45px;
 font-size:19px;
 height:32px;
@@ -934,6 +855,7 @@ vertical-align: middle;
 text-shadow: 3px 3px 3px #9b9193;
 }
 .p11{
+visibility: hidden;
 float:left;
 width:40px;
 height:24px;
@@ -943,7 +865,8 @@ text-align:center;
 border-bottom:3px solid #FFFFFF;
 }
 .p12{
-margin-left:31px;
+visibility: hidden;
+margin-left:10px;
 float:left;
 width:50px;
 height:24px;
@@ -953,7 +876,8 @@ text-align:center;
 border-bottom:3px solid #FFFFFF;
 }
 .p13{
-margin-left:29px;
+visibility: hidden;
+margin-left:10px;
 float:left;
 width:40px;
 height:24px;
@@ -963,7 +887,8 @@ text-align:center;
 border-bottom:3px solid #FFFFFF;
 }
 .p14{
-margin-left:28px;
+visibility: hidden;
+margin-left:10px;
 float:left;
 width:74px;
 height:24px;
@@ -973,7 +898,8 @@ text-align:center;
 border-bottom:3px solid #FFFFFF;
 }
 .p15{
-margin-left:32px;
+visibility: hidden;
+margin-left:12px;
 float:left;
 width:80px;
 height:24px;
@@ -983,7 +909,8 @@ text-align:center;
 border-bottom:3px solid #FFFFFF;
 }
 .p16{
-margin-left:37px;
+visibility: hidden;
+margin-left:18px;
 float:left;
 width:90px;
 height:24px;
@@ -997,8 +924,8 @@ float:left;
 font-family: Open Sans Light;
 color:white;
 font-weight:lighter;
-margin-left:296px;
-margin-top:49px;
+margin-left:-280px;
+margin-top:39px;
 font-size:12px;
 }
 .p18{
@@ -1006,7 +933,7 @@ float:left;
 font-family: Open Sans;
 color:white;
 font-weight:bold;
-margin-left:4px;
-margin-top:49px;
+margin-left:-210px;
+margin-top:39px;
 font-size:12px;
 }
