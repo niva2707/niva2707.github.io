@@ -1,0 +1,207 @@
+body
+{
+	background-color:black;
+    background-image:url(http://www.artleo.com/pic/201108/2560x1600/artleo.com-4629.jpg);
+    background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+.h1{
+	height:0px;
+	visibility:hidden;
+}
+.h1siyzh{
+	height:0px;
+	visibility:hidden;
+}
+.szh{
+	height:0px;
+	visibility:hidden;
+}
+.h2{
+	font-size:12pt;
+	height:100%;
+	visibility:visible;
+}
+.h2siyzh{
+	height:100%;
+	font-size:12pt;
+	visibility:visible;
+}
+.stk{
+	visibility:visible;
+	font-size:12pt;
+	height:100%;
+}
+h1{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    font:50pt sans-serif;
+    
+}
+h1:hover{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 5em black;
+    font:50pt sans-serif;
+}
+.a{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.75;
+ 	background: #fc0; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.a1{
+    text-align:center;
+    border:5px groove black;
+    border-radius:20px;
+}
+.b{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.75;
+ 	background: #4682B4; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.c{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.75;
+ 	background: #696969; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+    text-align:center;
+}
+.c1{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.75;
+ 	background: #556B2F; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.c2{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.75;
+ 	background: #D2691E; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.td1
+{
+    text-align:center;
+    vertical-align:top;
+}
+.at{
+    border-collapse:collapse;
+ }
+.at1{
+	
+    border:5px groove black;
+    border-radius:15px;
+	margin-top:163px;
+
+}
+.gg{
+	
+	vertical-align:top;
+}
+.at1:hover{
+    border:5px groove black;
+    border-radius:15px;
+    opacity: 0.9;
+ 	background: black; /* Цвет фона */
+ 	padding: 0px; /* Поля вокруг текста */
+}
+.b1{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.8;
+ 	background: #00008B; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.b2{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.8;
+ 	background: #556B2F; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.b3{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+	opacity: 0.8;
+ 	background: #00FFFF; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}.at2{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.table1{
+    border:solid white 2px;
+    border-radius:10px;
+    opacity: 0.8;
+ 	background: black; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+    text-align:justify;
+
+}
+.table1:hover{
+    border:solid white 2px;
+    border-radius:25px;
+    font-size:12pt;
+    opacity: 0.9;
+ 	background: black; /* Цвет фона */
+ 	padding: 5px; /* Поля вокруг текста */
+}
+.table2{
+    border:double #FFFFF0 3px;
+    border-radius:10px;
+    opacity: 0.9;
+ 	background-color:#FAEBD7;/* Цвет фона */
+ 	padding: 2px; /* Поля вокруг текста */
+    text-align:justify;
+    color:white;
+    float:left;
+}
+.table2:hover{
+    border:double #FFFFF0 3px;
+    border-radius:10pt;
+    opacity: 1;
+ 	background-color:none;/* Цвет фона */
+ 	padding: 2px; /* Поля вокруг текста */
+    text-align:justify;
+    color:white;
+    float:left;
+
+}
+.ta2{
+    background-color:#F4A460;
+    color:white;
+    text-shadow: 2px 2px 3px black, 0 0 10em black;
+    padding: 2px; /* Поля вокруг текста */
+    text-align:center;
+}
+.tb2{
+    background-color:grey;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    text-align:center;
+    border-right-color:black;
+    padding: 2px; /* Поля вокруг текста */
+}
+.tb3{
+    background-color:#2F4F4F;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    text-align:center;
+    border-right-color:black;
+    padding: 2px; /* Поля вокруг текста */
+}
+.tb4{
+    background-color:#1E90FF;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    text-align:center;
+    border-right-color:black;
+    padding: 2px; /* Поля вокруг текста */
+}
