@@ -1,7 +1,7 @@
 var number = prompt("Введите число для возведения в степень");
 var powNumberInput = prompt("Введите степень в которую нужно возвести число");
 var powNumberRound = Math.round(powNumberInput);
-var result=pow(number, stepen );
+var result=pow(number, powNumberRound );
 alert("возводим "+number+" в степень "+powNumberRound+" получаем в результате "+ result);
 function pow(num,pow){
 var res=1;
@@ -25,14 +25,12 @@ for (i=0; i<5; i++) {
 }
 alert("Список пользователей: "+arrNameUser[0]+" , "+arrNameUser[1]+" , "+arrNameUser[2]+" , "+arrNameUser[3]+" , "+arrNameUser[4]);
 var nameYours=prompt("Привет! Представьтесь, пожалуйста:");	
-var flagNameYours=-1;
-for (i=0; i<5; i++) {
-	if (arrNameUser[i]==nameYours) { 
-		flagNameYours=1;
-		i=4;	
-	}
-}
-if (flagNameYours == 1) {
+var flagNameYours=false;
+var i=0;
+do  {if (arrNameUser[i]===nameYours) { 
+		flagNameYours=true;} else i++;
+} while(flagNameYours=true);
+if (flagNameYours == true) {
   alert( 'Добро пожаловать, Уважаемый  '+ nameYours);
 } else {
   alert( 'Пока, Незнакомец' );
