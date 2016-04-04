@@ -11,146 +11,104 @@ padding:0;
 color:#bbabb8;
 }
 .header{
-width:2400px;
+width:100%;
 height:769px;
 background:url(../img960/fon.png);
 padding-top:80px;
+background-position:center 0%;
 }
 .title{
-margin-left:717px; 
+margin-left:5%;
 }
+
 .title1{
-font-family: League Gothic;
-font-size:48px;
-font-weight:lighter;
-width:124px;
-height:170px; 
-float:left;
+visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
-.title11{
-visibility: visible;
+.title111{
 font-family: League Gothic;
 color:white;
 float:left;
-display: block;
-height:90px;
-position: relative;
+font-size:48px;
+
+
+}
+.title11{
+visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 #panel {
 visibility: hidden;
 margin:0;
 padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .knopki {
 visibility: hidden;
-list-style: none;
 margin:0;
 padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 
 .subpanel {
 visibility: hidden;
-list-style: none;
-margin-top:50px;
-margin-left:-15px;
-width: 168px;
-height:258px;
-display: none;
-position: absolute;
-background: rgba(0, 0, 0, 0.5);
-border-radius:15px;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .mline1 {
 visibility: hidden;
-display: block;
-padding-top:10px;
-font-family: League Gothic;
-font-size:20px;
-width: 208px;
-margin-left:-40px;
-height: 33px;
-color: white;
-font-family: League Gothic;
-vertical-align: middle;
-text-align: center;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
-.mline1:hover{
-visibility: hidden;
-background:black;
-text-decoration:underline;
-border-radius:15px 15px 0 0;
-}
+
 .mline2{
 visibility: hidden;
-display: block;
-margin-left:-40px;
-padding-top:10px;
-width: 208px;
-height: 33px;
-color: white;
-font-size:20px;
-vertical-align: middle;
-text-align: center;
-border-bottom:1px solid white;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
-.mline2:hover{
-visibility: hidden;
-background:black;
-text-decoration:underline;
-}
+
 .mline {
 visibility: hidden;
-display: block;
-margin-left:-40px;
-padding-top:10px;
-font-family: League Gothic;
-font-size:20px;
-width: 208px;
-height: 33px;
-color: white;
-font-family: League Gothic;
-vertical-align: middle;
-text-align: center;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
-.mline:hover{
-visibility: hidden;
-background:black;
-text-decoration:underline;
-}
+
 .mline6 {
 visibility: hidden;
-display: block;
-margin-left:-40px;
-padding-top:10px;
-font-family: League Gothic;
-font-size:20px;
-width: 208px;
-height: 33px;
-color: white;
-font-family: League Gothic;
-vertical-align: middle;
-text-align: center;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
-.mline6:hover{
-visibility: hidden;
-background:black;
-text-decoration:underline;
-border-radius:0 0 15px 15px;
-}
-.knopki:hover .subpanel, .knopki.jshover .subpanel {
-visibility: hidden;
-display: block;
-}
-.knopki:hover, .knopki.jshover {
-visibility: hidden;
-background: black;
-/*text-shadow: 1px 1px 2px black, 0 0 1em black;*/
-border-radius:15px;
-}
+
 
 .title12{
 font-family: League Gothic;
-margin-top:1px;
 color:#734f82;
 text-shadow: 4px 0 4px #bea7b1;
 position:relative;
@@ -230,21 +188,12 @@ border-bottom:3px solid #bbabb8;
 .line1{
 background: rgba(0, 0, 0, 0.2);
 margin-top:183px;
-width:2400px;
+width:100%;
 height:400px;
-}
-.v1{
-height:42px;
-margin-left:400px;
-margin-top:4px;
-width:30px;
-float:left;
-background:url(../img960/аrrow_left.png);
-margin-top:180px;
 }
 .l1t{
 float:left;
-margin-left:290px;
+margin-left:5%;
 margin-top:98px;
 font-family: League Gothic;
 text-shadow: 2px 2px 2px #9b9193;
@@ -263,10 +212,15 @@ font-size:32px;
 }
 .l1t22{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .l1t3{
 font-family: Open Sans Light ;
-margin-top:0px;
+margin-top:14px;
 line-height:25px;
 color:white;
 font-size:18px;
@@ -277,22 +231,30 @@ letter-spacing: 0.1ех;
 }
 .l1t33{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
-.iphone{
+.phoneradio{
 float:left;
 margin-left:50px;
 margin-top:-18px;
 }
+.iphone{
+display:block;
+}
 .iphoneS{
 visibility: hidden;
-}
-.v2{
-float:left;
-margin-left:365px;
-margin-top:-127px;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .radio1{
-margin-left:1436px;
+margin-left:100px;
 margin-top:80px;
 float:left;
 }
@@ -308,44 +270,52 @@ background: url(../img960/wer.png);
 background:url(../img960/white_dot.png);
 }
 .contaner1{
-width:2400px;
+width:100%;
 height:342px;
 margin-top:-19px;
 background: linear-gradient(to bottom, #745083, #34263b);
 }
 .c1sb1{
-margin-left:725px;
+clear:both;
+margin-left:5%;
 margin-top:81px;
-width:20px;
-height:20px;
+width:360px;
+height:280px;
 float:left;
 }
 .remont{
 margin-left:2px;
 }
-.c1sb2{
-margin-left:35px;
-margin-top:83px;
-float:left;
-width:300px;
-height:280px;
-}
 .transpor1{
-margin-left:2px;
-display:block;
+float:left;
+margin-top:-25px;
+margin-left:40px;
+width:300px;
+height:33px;
 font-family: League Gothic;
 color:white;
 font-size:30px;
 }
 .transpor44{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .transpor444{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .transpor4{
 display:block;
 margin-top:13px;
+margin-left:40px;
 font-family: Open Sans Light;
 font-weight: lighter;
 line-height:25px;
@@ -358,8 +328,8 @@ letter-spacing: 0.1ех;
 }
 .but1{
 display:block;
-margin-top:-138px;
-margin-left:161px;
+margin-top:-50px;
+margin-left:215px;
 font-family: League Gothic;
 color:white;
 font-size:18px;
@@ -370,42 +340,55 @@ border:0;
 text-shadow: 0 0 4px white;
 }
 .c1sb3{
-margin-left:-38px;
+
+margin-left:0px;
 margin-top:81px;
-width:20px;
-height:20px;
+width:360px;
+height:280px;
 float:left;
 }
 .remont1{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .oblko{
-margin-top:-25px;
-margin-left:26px;
-}
-.c1sb4{
-margin-left:38px;
-margin-top:83px;
 float:left;
-width:300px;
-height:280px;
+
 }
 .transpor2{
-margin-left:2px;
-display:block;
+float:left;
+margin-top:-25px;
+margin-left:40px;
+width:300px;
+height:33px;
 font-family: League Gothic;
 color:white;
 font-size:30px;
 }
 .transpor55{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .transpor555{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .transpor5{
 display:block;
 margin-top:13px;
+margin-left:40px;
 font-family: Open Sans Light;
 font-weight: lighter;
 line-height:25px;
@@ -418,8 +401,8 @@ letter-spacing: 0.1ех;
 }
 .but2{
 display:block;
-margin-top:-138px;
-margin-left:166px;
+margin-top:-20px;
+margin-left:245px;
 font-family: League Gothic;
 color:white;
 font-size:18px;
@@ -430,29 +413,30 @@ border:0;
 text-shadow: 0 0 4px white;
 }
 .c1sb5{
-margin-left:25px;
-margin-top:51px;
-width:20px;
-height:20px;
+margin-left:0px;
+margin-top:83px;
+width:360px;
+height:280px;
 float:left;
 }
 .musik{
-margin-top:32px;
-margin-left:-39px;
+float:left;
+margin-top:0px;
 }
 .remont2{
 visibility: hidden;
-}
-.c1sb6{
-margin-left:-5px;
-margin-top:83px;
-float:left;
-width:300px;
-height:280px;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .transpor3{
-margin-left:2px;
-display:block;
+float:left;
+margin-top:-25px;
+margin-left:40px;
+width:300px;
+height:33px;
 font-family: League Gothic;
 color:white;
 font-size:30px;
@@ -464,8 +448,10 @@ visibility: hidden;
 visibility: hidden;
 }
 .transpor6{
+
 display:block;
 margin-top:13px;
+margin-left:40px;
 font-family: Open Sans Light;
 font-weight: lighter;
 line-height:25px;
@@ -477,9 +463,10 @@ word-spacing: 0.1ех;
 letter-spacing: 0.1ех;
 }
 .but3{
+
 display:block;
-margin-top:-138px;
-margin-left:161px;
+margin-top:-100px;
+margin-left:215px;
 font-family: League Gothic;
 color:white;
 font-size:18px;
@@ -494,7 +481,7 @@ text-shadow: 0 0 4px white;
 .contaner2{
 float:left;
 margin-top:-20px;
-width:2400px;
+width:100%;
 height:487px;
 background-color:#f9f9f9;
 border-bottom:1px solid #bbabb8;
@@ -502,7 +489,7 @@ border-bottom:1px solid #bbabb8;
 .sideleft{
 float:left;
 margin-top:100px;
-margin-left:747px;
+margin-left:6%;
 width:410px;
 height:290px;
 background:url(../img960/fonsidebr.png);
@@ -549,18 +536,45 @@ word-spacing:2px;
  }
  .sbl211{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
  }
   .sbl2111{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
  }
 .sbl2{
-margin-top:-350px;
+margin-top:-227px;
 margin-left:408px;
 float:left;
 width:15px;
 height:271px;
 background-color:white;
  }
+ 
+ .radio2{
+display:block;
+margin-top:75px;
+margin-left:150px;
+}
+.b2{
+float:left;
+display:block;
+height:16px;
+width:16px;
+margin-right:4px;
+background:url(../img960/white_dot1.png);
+}
+.b2:hover{
+background: url(../img960/blk_dot1.png);
+}
 .sideright{
 float:left;
 margin-top:125px;
@@ -592,7 +606,7 @@ letter-spacing: 2pх;
 word-spacing:2px;
 }
 .sbr22{
-margin-top:-28px;
+margin-top:-10px;
 margin-left:65px;
 font-family: Open Sans Light ;
 font-weight:light;
@@ -603,9 +617,13 @@ word-spacing:0.2px;
 }
 .sbr222{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr12{ 
-margin-top:-24px;
 margin-left:6px;
 }
 .sbr23{
@@ -619,7 +637,7 @@ letter-spacing: 2pх;
 word-spacing:2px;
 }
 .sbr24{
-margin-top:-28px;
+margin-top:-10px;
 margin-left:65px;
 font-family: Open Sans Light ;
 font-weight:light;
@@ -630,9 +648,14 @@ word-spacing:0.2px;
 }
 .sbr242{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr13{ 
-margin-top:-26px;
+margin-top:0px;
 margin-left:4px;
 }
 .sbr25{
@@ -646,7 +669,7 @@ letter-spacing: 2pх;
 word-spacing:2px;
 }
 .sbr26{
-margin-top:-28px;
+margin-top:-10px;
 margin-left:68px;
 font-family: Open Sans Light ;
 font-weight:light;
@@ -657,48 +680,64 @@ word-spacing:0.2px;
 }
 .sbr262{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr211{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr2222{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr231{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr2422{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr251{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr2622{
 visibility: hidden;
-}
-.footer1{
-margin-left:918px;
-margin-top:380px;
-}
-.radio2{
-float:left;
-}
-.b2{
-float:left;
-display:block;
-height:16px;
-width:16px;
-margin-right:4px;
-background:url(../img960/white_dot1.png);
-}
-.b2:hover{
-background: url(../img960/blk_dot1.png);
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .sbr27{
-float:left;
 display:block;
-margin-left:575px;
-margin-top:-17px;
+margin-left:350px;
+margin-top:75px;
 font-family: League Gothic ;
 font-weight:bold;
 font-size:18px;
@@ -708,21 +747,21 @@ word-spacing:2px;
 }
 .sbr272{
 visibility: hidden;
-}
-.spce2{
-width:10px;
-height:10px;
-background-color:red;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .strlogo{
 float:left;
 margin-top:1px;
-width:2400px;
+width:100%;
 height:121px;
 background-color:#f9f9f9;
 }
 .logo{
-margin-left:813px;
+margin-left:8%;
 margin-top:23px;
 }
 .l1{
@@ -778,12 +817,12 @@ background:url(../img960/l6.png);
 }
 .contaner4{
 float:left;
-width:2400px;
+width:100%;
 height:396px;
 background-color:#ececec;
 }
 .downmenu1{
-margin-left:719px;
+margin-left:15%;
 float:left;
 margin-top:95px;
 width:340px;
@@ -804,7 +843,6 @@ height:205px;
 .downtit1{
 float:left;
 margin-top:11px;
-margin-left:-2px;
 font-family: League Gothic;
 font-weight:light;
 font-size:48px;
@@ -824,7 +862,6 @@ font-stretch:normal;
 .downtit3{
 display:block;
 margin-top:26px;
-margin-left:-2px;
 font-family: Georgia Italic;
 font-style: italic;
 font-weight:light;
@@ -835,7 +872,6 @@ font-stretch:normal;
 .downtit4{
 display:block;
 margin-top:14px;
-margin-left:-2px;
 font-family: Open Sans Light;
 font-weight:light;
 font-size:16px;
@@ -848,7 +884,7 @@ line-height:24px;
 .downtit21{
 float:left;
 margin-top:2px;
-margin-left:-2px;
+margin-left:-8px;
 font-family: League Gothic;
 font-weight:light;
 font-size:30px;
@@ -858,7 +894,7 @@ font-stretch:normal;
 .downtit22{
 display:block;
 margin-top:8px;
-margin-left:-2px;
+margin-left:-8px;
 font-family: Open Sans Light;
 font-weight:light;
 font-size:16px;
@@ -870,23 +906,48 @@ line-height:24px;
 }
 .downtit41{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit421{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit42{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit422{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit423{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit43{
 float:left;
 margin-top:2px;
-margin-left:-2px;
+margin-left:-8px;
 font-family: League Gothic;
 font-weight:light;
 font-size:30px;
@@ -896,7 +957,7 @@ font-stretch:normal;
 .downtit432{
 display:block;
 margin-top:20px;
-margin-left:-2px;
+margin-left:-8px;
 font-family: Open Sans Light;
 font-weight:light;
 font-size:16px;
@@ -908,16 +969,31 @@ line-height:24px;
 }
 .downtit4211{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit4221{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .downtit4231{
 visibility: hidden;
+margin:0;
+padding:0;
+font-size:0px;
+width: 0px;
+height:0px;
 }
 .contaner5{
 float:left;
-width:2400px;
+width:100%;
 height:112px;
 background:url(../img960/footer.png);
 }
@@ -926,7 +1002,7 @@ float:left;
 font-family: League Gothic;
 color:white;
 font-weight:lighter;
-margin-left:714px;
+margin-left:5%;
 margin-top:45px;
 font-size:19px;
 height:32px;
