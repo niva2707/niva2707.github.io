@@ -19,7 +19,7 @@ background-position:center 0%;
 }
 .title{
 margin-top:2px;
-margin-left:8%; 
+margin-left:18%; 
 }
 .title1{
 font-family: League Gothic;
@@ -225,7 +225,7 @@ clear:both;
 float:left;
 width:200px;
 margin-top:60px;
-margin-left:0.5%;
+margin-left:9.5%;
 font-family: League Gothic;
 }
 .l1t1{
@@ -309,7 +309,7 @@ background: linear-gradient(to bottom, #745083, #34263b);
 }
 .c1sb1{
 clear:both;
-margin-left:1.5%;
+margin-left:11.5%;
 margin-top:60px;
 width:445px;
 height:150px;
@@ -372,7 +372,7 @@ text-shadow: 0 0 4px white;
 }
 .c1sb3{
 clear:both;
-margin-left:1.5%;
+margin-left:11.5%;
 margin-top:30px;
 width:445px;
 height:150px;
@@ -443,7 +443,7 @@ text-shadow: 0 0 4px white;
 }
 .c1sb5{
 clear:both;
-margin-left:1.5%;
+margin-left:11.5%;
 margin-top:30px;
 width:445px;
 height:150px;
@@ -523,7 +523,7 @@ border-bottom:1px solid #bbabb8;
 .sideleft{
 float:left;
 margin-top:70px;
-margin-left:3%;
+margin-left:13%;
 width:405px;
 height:285px;
 background:white;
@@ -608,7 +608,7 @@ background: url(../img960/blk_dot1.png);
 }
 .sideright{
 padding-top:426px;
-margin-left:3%;
+margin-left:13%;
 width:480px;
 height:290px;
 }
@@ -793,7 +793,7 @@ height:242px;
 background-color:#f9f9f9;
 }
 .logo{
-margin-left:6%;
+margin-left:16%;
 margin-top:38px;
 }
 .l1{
@@ -856,7 +856,7 @@ height:670px;
 background-color:#ececec;
 }
 .downmenu1{
-margin-left:2%;
+margin-left:11%;
 margin-top:50px;
 width:500px;
 height:120px;
@@ -891,7 +891,7 @@ height:120px;
 line-height:23px;
 }
 .downmenu2{
-margin-left:2%;
+margin-left:9%;
 margin-top:81px;
 width:500px;
 height:120px;
@@ -924,7 +924,7 @@ height:120px;
 line-height:23px;
 }
 .downmenu3{
-margin-left:2%;
+margin-left:6%;
 margin-top:86px;
 width:500px;
 height:120px;
@@ -1025,7 +1025,7 @@ float:left;
 font-family: League Gothic;
 color:white;
 font-weight:lighter;
-margin-left:2%;
+margin-left:12%;
 margin-top:45px;
 font-size:19px;
 height:32px;

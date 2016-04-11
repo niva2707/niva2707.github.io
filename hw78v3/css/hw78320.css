@@ -19,7 +19,7 @@ background-position:center 0%;
 }
 .title{
 margin-top:2px;
-margin-left:3%; 
+margin-left:15%; 
 }
 .title1{
 font-family: League Gothic;
@@ -157,7 +157,6 @@ text-shadow: 4px 0 4px #bea7b1;
 position:relative;
 font-size:48px;
 height:48px; 
-margin-right:167px;
 }
 .menuup{
 visibility: hidden;
@@ -225,7 +224,7 @@ height:245px;
 float:left;
 width:200px;
 margin-top:105px;
-margin-left:-140px;
+margin-left:-138px;
 font-family: League Gothic;
 }
 .l1t1{
@@ -312,7 +311,7 @@ background: linear-gradient(to bottom, #745083, #34263b);
 }
 .c1sb1{
 clear:both;
-margin-left:1%;
+margin-left:6%;
 margin-top:61px;
 width:200px;
 height:180px;
@@ -378,7 +377,7 @@ text-shadow: 0 0 4px white;
 }
 .c1sb3{
 clear:both;
-margin-left:1%;
+margin-left:6%;
 margin-top:0px;
 width:200px;
 height:180px;
@@ -452,7 +451,7 @@ text-shadow: 0 0 4px white;
 }
 .c1sb5{
 clear:both;
-margin-left:1%;
+margin-left:6%;
 margin-top:0px;
 width:200px;
 height:180px;
@@ -535,7 +534,7 @@ border-bottom:1px solid #bbabb8;
 .sideleft{
 float:left;
 margin-top:70px;
-margin-left:2.5%;
+margin-left:7.5%;
 width:250px;
 height:270px;
 background:white;
@@ -619,14 +618,14 @@ background: url(../img960/blk_dot1.png);
 }
 .sideright{
 padding-top:426px;
-margin-left:1%;
+margin-left:7.5%;
 width:480px;
 height:200px;
 }
 .sbr1{
 float:left;
 margin-top:13px;
-margin-left:20px;
+margin-left:-20px;
 font-family: League Gothic;
 color:#454545;
 font-size:30px;
@@ -634,7 +633,7 @@ vertical-align: top;
 }
 .sbr11{ 
 margin-top:36px;
-margin-left:20px;
+margin-left:-10px;
 }
 .sbr21{
 visibility: hidden;
@@ -682,7 +681,7 @@ word-spacing:0.2px;
 }
 .sbr12{ 
 margin-top:10px;
-margin-left:20px;
+margin-left:-10px;
 }
 .sbr23{
 visibility: hidden;
@@ -730,7 +729,7 @@ height:0px;
 }
 .sbr13{ 
 margin-top:10px;
-margin-left:20px;
+margin-left:-10px;
 }
 .sbr251{
 margin-top:-45px;
@@ -787,7 +786,7 @@ height:0px;
 .sbr272{
 float:left;
 display:block;
-margin-left:190px;
+margin-left:150px;
 margin-top:22px;
 font-family: League Gothic ;
 font-weight:light;
@@ -809,12 +808,12 @@ height:413px;
 background-color:#f9f9f9;
 }
 .logo{
-margin-left:0.7%px;
+margin-left:5.7%px;
 margin-top:50px;
 }
 .l1{
 float:left;
-margin-left:4.5%;
+margin-left:9.5%;
 display:inline-block;
 width:69px;
 height:64px;
@@ -1112,7 +1111,7 @@ float:left;
 font-family: Open Sans Light;
 color:white;
 font-weight:lighter;
-margin-left:4.5%;
+margin-left:18%;
 margin-top:39px;
 font-size:12px;
 }
